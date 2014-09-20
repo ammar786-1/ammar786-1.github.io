@@ -8,7 +8,7 @@ exclude: ['/automation/', 'README.md', 'LICENCE.txt', 'CNAME']
 title: "GDG DevFest Season 2014"
 email: "ammargitham786@gmail.com"
 description: "GDG DevFest is a set of events all around the world"
-baseurl: "/ammar786-1.github.io"
+baseurl: "/devfest"
 url: "http://ammar786-1.github.io"
 permalink: "/blog/:title"
 
