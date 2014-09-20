@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Call for Papers"
+title:  "Call for Papers Testing"
 date:   2014-07-21 09:00:00
 isStaticPost: false
 ---
