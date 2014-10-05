@@ -1,0 +1,44 @@
+- 
+  id: 1
+  title: "Android Wear Conclave"
+  date: "11-10-2014"
+  dateReadable: "October 11"
+  venue: "KC College"
+  shortDesc: "Learn more about Google Android Wear technologies and Material Design Principles"
+  longDesc: "This conclave will be a great opportunity to learn more about Google Android Wear technologies and Maerial Design Principles. The events also give one a chance to meet developer advocates and engineers who work on these products and ask them any questions one might have. The conclave will have introductory, medium level talks on Google developer products which will help community users to get familiarize with these technologies.We welcome you all for the Google Android Wear Conclave at IITB,Mumbai! Let’s Learn, Build & Explore!"
+  thumbnailUrl: wearconclave_300_px.png
+  fullImageUrl: wearconclave_6.png
+  rockstar: true
+  social: 
+    - {name: "google-plus", link: "https://plus.google.com/+DawidOstrowski/"}
+  speakers: [8, 3]
+  timeslots:
+    - {
+		startTime: "11:00",
+		endTime: "1:00",
+    	session: "Android Wear Development",
+		speakers: [8]
+    }
+    - {
+        startTime: "1:00",
+        endTime: "2:00",
+        session: "Material Design",
+		speakers: [3]
+    }
+    - {
+    	startTime: "2:00",
+    	endTime: "3:00",
+    	session: "Design Sprint",
+		speakers: [3]
+    }
+  partners:
+    -
+        group: "Main organizer"
+        elements:
+            - {name: "GDG Mumbai", description: "GDG Mumbai - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg"}
+    -
+        group: "With support of"
+        elements: 
+            - {name: "Google", description: "Google", link: "https://www.google.com.ua/intl/en/about/", imageUrl: "google.svg", width: "120px"}
+            - {name: "GDG Lviv", description: "GDG Lviv - Open and volunteer geek community", link: "http://lviv.gdg.org.ua", imageUrl: "gdg-lviv.svg", width: "120px"}
+            - {name: "GDG[x]", description: "GDG[x] - Yeah, we can fix that", link: "https://github.com/gdg-x", imageUrl: "gdg-x.svg", width: "120px"}

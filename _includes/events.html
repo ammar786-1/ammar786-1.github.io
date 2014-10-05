@@ -1,0 +1,42 @@
+<!-- Begin Events List-->
+<section id="events" class="events">
+    <div class="content-wrapper">
+        <div class="col-lg-10 col-lg-offset-1">
+            <div class="row text-left appear-animation-trigger">
+                {% for event in site.data.events %}
+                <div class="effect-wrapper appear-animation col-md-12 col-sm-12 col-xs-12">
+                    <div class="lily-effect ribbon-activator">
+                        <div class="lily-head" data-toggle="modal" data-target="#eventDetail-{{ event.id }}" style="float: left; width: 50%; height: 300px;">
+                            <figure class="waves-effect waves-block waves-light" style="background-image: url({{ site.baseurl | append: '/img/events/' | append: event.thumbnailUrl }})">
+                                <div class="overlay solid-overlay"></div>
+                                {% if event.ribbon != null %}
+                                <ul class="ribbon-wrapper">
+                                    {% for ribbon in event.ribbon %}
+                                    <li class="{{ ribbon["abbr"] | downcase }}">
+                                        <p class="ribbon abbr">{{ ribbon["abbr"] }}</p>
+                                        <p class="ribbon full-title">{{ ribbon["title"] }}</p>
+                                    </li>
+                                    {% endfor %}
+                                </ul>
+                                {% endif %}
+                                <figcaption>
+                                    
+                                </figcaption>
+                            </figure>
+                        </div>
+                        <div class="lily-bottom" style="display: inline-block; height: 300px; width:50%;">
+							<h2><span style="font-weight: 600;">{{ event.dateReadable }}</span></h2>
+							<h2 class="name">{{ event.title }}</h2>
+                            <p class="position">{{ event.venue }}</p>
+                            <ul class="slider">
+                                <li class="title slider-item animated fadeInRight hidden" style="display: block; overflow: visible;">{{ event.shortDesc }}</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                {% endfor %}
+            </div> 
+        </div>
+    </div>
+</section>
+<!-- End Events List -->
