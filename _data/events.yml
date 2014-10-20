@@ -4,7 +4,7 @@
   date: "11-10-2014"
   dateReadable: "October 11"
   venue: "KC College"
-  venueCoordinates:[19.131712,72.91764]
+  venueCoordinates:["19.131712","72.91764"]
   shortDesc: "Learn more about Google Android Wear technologies and Material Design Principles"
   longDesc: "This conclave will be a great opportunity to learn more about Google Android Wear technologies and Maerial Design Principles. The events also give one a chance to meet developer advocates and engineers who work on these products and ask them any questions one might have. The conclave will have introductory, medium level talks on Google developer products which will help community users to get familiarize with these technologies.We welcome you all for the Google Android Wear Conclave at IITB,Mumbai! Let’s Learn, Build & Explore!"
   thumbnailUrl: wearconclave_300_px.png
